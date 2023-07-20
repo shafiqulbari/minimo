@@ -1,0 +1,43 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+.logo {
+    width: 11%;
+    padding: 16px 0;
+    float: left;
+    /* border: 2px solid black; */
+}
+.logo img {
+    width: 100%;
+}
+.navbar {
+    width: 59%;
+    /* border: 2px solid green; */
+    float: right;
+}
+.navbar ul {
+    float: right;
+}
+.navbar ul li {
+    list-style: none;
+    float: left;
+}
+.navbar ul li a {
+    display: inline-block;
+    padding: 0 45px;
+    color: #a1a1a1;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+.navbar ul li:last-child a {
+    padding-right: 0;
+}
+.navbar ul li:first-child a {
+    padding-left: 0;
+}
+.navbar ul li a:hover {
+    color: rgb(55, 56, 56);
+}
